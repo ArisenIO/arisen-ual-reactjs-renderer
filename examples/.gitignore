@@ -60,8 +60,8 @@ jspm_packages/
 
 # Output of 'npm pack'
 *.tgz
-!blockone-eosio-vault-js-api-0.0.12.tgz
-!blockone-eosio-vault-js-api-1.0.0.tgz
+!blockone-arisen-vault-js-api-0.0.12.tgz
+!blockone-arisen-vault-js-api-1.0.0.tgz
 
 # Yarn Integrity file
 .yarn-integrity

@@ -1,12 +1,12 @@
 # UAL Renderer for ReactJS
 
-This library provides a React renderer around the [Universal Authenticator Library](https://github.com/EOSIO/universal-authenticator-library).
+This library provides a React renderer around the [Universal Authenticator Library](https://github.com/ARISEN/universal-authenticator-library).
 
-![EOSIO Labs](https://img.shields.io/badge/EOSIO-Labs-5cb3ff.svg)
+![ARISEN Labs](https://img.shields.io/badge/ARISEN-Labs-5cb3ff.svg)
 
-# About EOSIO Labs
+# About ARISEN Labs
 
-EOSIO Labs repositories are experimental.  Developers in the community are encouraged to use EOSIO Labs repositories as the basis for code and concepts to incorporate into their applications. Community members are also welcome to contribute and further develop these repositories. Since these repositories are not supported by Block.one, we may not provide responses to issue reports, pull requests, updates to functionality, or other requests from the community, and we encourage the community to take responsibility for these.
+ARISEN Labs repositories are experimental.  Developers in the community are encouraged to use ARISEN Labs repositories as the basis for code and concepts to incorporate into their applications. Community members are also welcome to contribute and further develop these repositories. Since these repositories are not supported by Block.one, we may not provide responses to issue reports, pull requests, updates to functionality, or other requests from the community, and we encourage the community to take responsibility for these.
 
 ## Getting Started
 #### With ``yarn``
@@ -59,7 +59,7 @@ ReactDOM.render(
 ```
 
 ## Examples
-A small example is provided in the [examples](https://github.com/EOSIO/ual-reactjs-renderer/tree/develop/examples) folder.
+A small example is provided in the [examples](https://github.com/ARISEN/ual-reactjs-renderer/tree/develop/examples) folder.
 
 ## Environment Set Up
 **A one-time environment setup is required prior to development.**  The following commands provides a quick starting point.  Make sure you are in the ``examples/`` directory.
@@ -75,8 +75,8 @@ RPC_PROTOCOL=http
 RPC_HOST=localhost
 RPC_PORT=8888
 ```
-These values are taken from the local chain created by following the [Developer Portal node set up instructions](https://developers.eos.io/eosio-home/docs/getting-the-software). _(Note: if this is your first time following the tutorial you will need to install the eosio binaries [here](https://developers.eos.io/eosio-home/docs/setting-up-your-environment))_  These can be edited according to the requirements of your project if you have a different chain set up.  They will be used as the chain data in the example app.
-*See the [Basic Example App for UAL with ReactJS](https://github.com/EOSIO/ual-reactjs-renderer/tree/develop/examples) for more details.*
+These values are taken from the local chain created by following the [Developer Portal node set up instructions](https://developers.rsn.io/arisen-home/docs/getting-the-software). _(Note: if this is your first time following the tutorial you will need to install the arisen binaries [here](https://developers.rsn.io/arisen-home/docs/setting-up-your-environment))_  These can be edited according to the requirements of your project if you have a different chain set up.  They will be used as the chain data in the example app.
+*See the [Basic Example App for UAL with ReactJS](https://github.com/ARISEN/ual-reactjs-renderer/tree/develop/examples) for more details.*
 
 ## Development
 After you set up your environment you can begin development.  Make sure you are back in the ``/`` directory of the ``ual-reactjs-renderer`` package.
@@ -110,6 +110,6 @@ Open a browser at `localhost:3000` to see a running instance of the example.
 
 ## Important
 
-See LICENSE for copyright and license terms.  Block.one makes its contribution on a voluntary basis as a member of the EOSIO community and is not responsible for ensuring the overall performance of the software or any related applications.  We make no representation, warranty, guarantee or undertaking in respect of the software or any related documentation, whether expressed or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall we be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or documentation or the use or other dealings in the software or documentation. Any test results or performance figures are indicative and will not reflect performance under all conditions.  Any reference to any third party or third-party product, service or other resource is not an endorsement or recommendation by Block.one.  We are not responsible, and disclaim any and all responsibility and liability, for your use of or reliance on any of these resources. Third-party resources may be updated, changed or terminated at any time, so the information here may be out of date or inaccurate.  Any person using or offering this software in connection with providing software, goods or services to third parties shall advise such third parties of these license terms, disclaimers and exclusions of liability.  Block.one, EOSIO, EOSIO Labs, EOS, the heptahedron and associated logos are trademarks of Block.one.
+See LICENSE for copyright and license terms.  Block.one makes its contribution on a voluntary basis as a member of the ARISEN community and is not responsible for ensuring the overall performance of the software or any related applications.  We make no representation, warranty, guarantee or undertaking in respect of the software or any related documentation, whether expressed or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall we be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or documentation or the use or other dealings in the software or documentation. Any test results or performance figures are indicative and will not reflect performance under all conditions.  Any reference to any third party or third-party product, service or other resource is not an endorsement or recommendation by Block.one.  We are not responsible, and disclaim any and all responsibility and liability, for your use of or reliance on any of these resources. Third-party resources may be updated, changed or terminated at any time, so the information here may be out of date or inaccurate.  Any person using or offering this software in connection with providing software, goods or services to third parties shall advise such third parties of these license terms, disclaimers and exclusions of liability.  Block.one, ARISEN, ARISEN Labs, RSN, the heptahedron and associated logos are trademarks of Block.one.
 
 Wallets and related components are complex software that require the highest levels of security.  If incorrectly built or used, they may compromise users’ private keys and digital assets. Wallet applications and related components should undergo thorough security evaluations before being used.  Only experienced developers should work with this software.

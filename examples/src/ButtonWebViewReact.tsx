@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom'
 
 const demoTransaction = {
   actions: [{
-    account: 'eosio.token',
+    account: 'arisen.token',
     name: 'transfer',
     authorization: [{
       actor: '', // use account that was logged in
@@ -18,7 +18,7 @@ const demoTransaction = {
     data: {
       from: '', // use account that was logged in
       to: 'example',
-      quantity: '1.0000 EOS',
+      quantity: '1.0000 RIX',
       memo: 'UAL rocks!',
     },
   }],
@@ -130,7 +130,7 @@ class TransactionApp extends React.Component<TransactionProps, TransactionState>
     return (
       <p className='ual-btn-wrapper'>
         <span className='ual-generic-button blue' onClick={this.transfer}>
-          {'Transfer 1 eos to example'}
+          {'Transfer 1 rix to example'}
         </span>
       </p>
     )
