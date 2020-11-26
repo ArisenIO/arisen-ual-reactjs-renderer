@@ -1,5 +1,5 @@
 const ScatterJS = {
-  scatter: {
+  peepsid: {
     connect: (appName) => {
       if (appName === 'My Working App') {
         return true
@@ -9,7 +9,7 @@ const ScatterJS = {
   },
 }
 
-const scatter = {
+const peepsid = {
   logout: () => {},
 }
 
@@ -18,36 +18,36 @@ class UALScatterError {
     this.message = message
     this.type = type
     this.error = error
-    this.source = 'Scatter'
+    this.source = 'PeepsID'
   }
 }
 
 class ScatterUser {
-  constructor(chain, scatter) {
+  constructor(chain, peepsid) {
     this.chain = chain
-    this.scatter = scatter
+    this.peepsid = peepsid
   }
 
   getKeys() {
-    if (this.scatter) {
+    if (this.peepsid) {
       return Promise.resolve('keys!')
     }
     throw new Error()
   }
 }
 
-export class Scatter {
+export class PeepsID {
   constructor(chains, options = { appName: '' }) {
     this.chains = chains
     this.appName = options.appName
     this.scatterIsLoading = false
     this.initError = null
-    this.scatter = false
+    this.peepsid = false
   }
 
   async init() {
     this.scatterIsLoading = false
-    if (!await ScatterJS.scatter.connect(this.appName)) {
+    if (!await ScatterJS.peepsid.connect(this.appName)) {
       this.initError = new UALScatterError('Error occurred while connecting',
         'initialization',
         null)
@@ -56,7 +56,7 @@ export class Scatter {
 
       return
     }
-    this.scatter = scatter
+    this.peepsid = peepsid
     this.scatterIsLoading = false
   }
 
@@ -75,7 +75,7 @@ export class Scatter {
   getStyle() {
     return {
       icon: 'logo',
-      text: 'Scatter',
+      text: 'PeepsID',
       textColor: 'white',
       background: '#62D0FD',
     }
@@ -96,7 +96,7 @@ export class Scatter {
   async login() {
     try {
       for (const chain of this.chains) {
-        const user = new ScatterUser(chain, this.scatter)
+        const user = new ScatterUser(chain, this.peepsid)
         await user.getKeys()
         this.users.push(user)
       }
@@ -113,7 +113,7 @@ export class Scatter {
 
   async logout() {
     try {
-      this.scatter.logout()
+      this.peepsid.logout()
     } catch (error) {
       throw new UALScatterError('Error occurred during logout',
         'logout',

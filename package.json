@@ -1,15 +1,11 @@
 {
-  "name": "ual-reactjs-renderer",
-  "version": "0.2.0",
+  "name": "arisen-ual-reactjs-renderer",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "author": {
-    "name": "block.one",
-    "url": "https://block.one/"
+    "name": "peeps",
+    "url": "https://arisen.network/"
   },
-  "collaborators": [
-    "Nasser Abouelazm",
-    "Mike Manfredi"
-  ],
   "license": "MIT",
   "scripts": {
     "ts-build": "tsc --build tsconfig.json",

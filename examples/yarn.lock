@@ -7739,17 +7739,17 @@ ual-ledger@0.1.3:
     universal-authenticator-library "0.1.4"
     uuid "3.3.2"
 
-ual-lynx@0.2.2:
+arisen-ual-lynx@0.2.2:
   version "0.2.2"
-  resolved "https://registry.yarnpkg.com/ual-lynx/-/ual-lynx-0.2.2.tgz#48c0aefae59589f09854ea4403c6e2a7f4f86a9d"
+  resolved "https://registry.yarnpkg.com/arisen-ual-lynx/-/arisen-ual-lynx-0.2.2.tgz#48c0aefae59589f09854ea4403c6e2a7f4f86a9d"
   integrity sha512-PT4jbDUo8KJ+5YKFV3KKoYivxQafedTyeNn60JB8QFD+/7kHtCtSKJG0LoBc1iRXjkg2nWpRFc591VUgDpvAUw==
   dependencies:
     eosjs "20.0.0"
     universal-authenticator-library "0.1.4"
 
-ual-reactjs-renderer@0.1.6:
+arisen-ual-reactjs-renderer@0.1.6:
   version "0.1.5"
-  resolved "https://registry.yarnpkg.com/ual-reactjs-renderer/-/ual-reactjs-renderer-0.1.5.tgz#3dcb3d2b5036bd86484c9335ac723d8f954756be"
+  resolved "https://registry.yarnpkg.com/arisen-ual-reactjs-renderer/-/arisen-ual-reactjs-renderer-0.1.5.tgz#3dcb3d2b5036bd86484c9335ac723d8f954756be"
   integrity sha512-waQSuiU7eHM+qKIhgaW6IveO0GqPI15qi2cQVnQYeJ9Kyuxdfcq4xpGqQwdMNroeD68Ox6NMgdPAiCDwv4l4fw==
   dependencies:
     i18next "14.0.1"
@@ -7762,9 +7762,9 @@ ual-reactjs-renderer@0.1.6:
     styled-components "4.1.3"
     universal-authenticator-library "0.1.4"
 
-ual-scatter@0.1.6:
+arisen-ual-peepsid@0.1.6:
   version "0.1.6"
-  resolved "https://registry.yarnpkg.com/ual-scatter/-/ual-scatter-0.1.6.tgz#3b33f4b13bfd3fd32d81302755205323a9d35379"
+  resolved "https://registry.yarnpkg.com/arisen-ual-peepsid/-/arisen-ual-peepsid-0.1.6.tgz#3b33f4b13bfd3fd32d81302755205323a9d35379"
   integrity sha512-JrYftcVLG1Ymbnsj4+Y4Bu6FuynXlpZuaBD6NkBPb+17vy+ySo7i5T4kojQlyjf/4blXfb7q8+FyBxm5Bk7pZQ==
   dependencies:
     eosjs "20.0.0"

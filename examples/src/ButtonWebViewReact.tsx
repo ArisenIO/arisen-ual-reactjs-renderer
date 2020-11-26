@@ -1,7 +1,7 @@
 import { Ledger } from 'ual-ledger'
-import { Lynx } from 'ual-lynx'
-import { Scatter } from 'ual-scatter'
-import { UALProvider, withUAL } from 'ual-reactjs-renderer'
+import { Lynx } from 'arisen-ual-lynx'
+import { PeepsID } from 'arisen-ual-peepsid'
+import { UALProvider, withUAL } from 'arisen-ual-reactjs-renderer'
 
 import { JsonRpc } from 'eosjs'
 import * as React from 'react'
@@ -175,10 +175,10 @@ TestAppConsumer.displayName = 'TestAppConsumer'
 const appName = 'My App'
 const lynx = new Lynx([exampleNet])
 const ledger = new Ledger([exampleNet])
-const scatter = new Scatter([exampleNet], { appName })
+const peepsid = new PeepsID([exampleNet], { appName })
 
 ReactDOM.render(
-  <UALProvider chains={[exampleNet]} authenticators={[ledger, lynx, scatter]} appName={'My App'}>
+  <UALProvider chains={[exampleNet]} authenticators={[ledger, lynx, peepsid]} appName={'My App'}>
     <TestAppConsumer />
   </UALProvider>,
   document.getElementById('ual-app') as HTMLElement,

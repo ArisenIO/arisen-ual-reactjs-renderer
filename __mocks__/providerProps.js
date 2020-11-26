@@ -1,4 +1,4 @@
-import { Scatter } from 'ual-scatter'
+import { PeepsID } from 'arisen-ual-peepsid'
 
 const EXAMPLE_ENV = {
   CHAIN_ID: '1',
@@ -18,6 +18,6 @@ const exampleNet = {
 
 export const providerProps = {
   chains: [exampleNet],
-  authenticators: [new Scatter([exampleNet], { appName: 'My Working App' })],
+  authenticators: [new PeepsID([exampleNet], { appName: 'My Working App' })],
   appName: 'My app',
 }

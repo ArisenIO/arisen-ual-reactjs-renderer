@@ -1,6 +1,6 @@
 # Basic Example App for UAL with ReactJS
 
-This example demonstrates an implementation of the [Universal Authenticator Library Renderer for ReactJS](https://github.com/ARISEN/ual-reactjs-renderer) in a simple RSN transfer DAPP.  It uses the [UAL for Scatter Authenticator](https://github.com/ARISEN/ual-scatter) and [UAL for Ledger Authenticator](https://github.com/ARISEN/ual-ledger) authenticators.
+This example demonstrates an implementation of the [Universal Authenticator Library Renderer for ReactJS](https://github.com/ARISEN/arisen-ual-reactjs-renderer) in a simple RSN transfer DAPP.  It uses the [UAL for PeepsID Authenticator](https://github.com/ARISEN/arisen-ual-peepsid) and [UAL for Ledger Authenticator](https://github.com/ARISEN/ual-ledger) authenticators.
 
 ![ARISEN Labs](https://img.shields.io/badge/ARISEN-Labs-5cb3ff.svg)
 

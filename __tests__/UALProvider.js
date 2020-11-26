@@ -40,7 +40,7 @@ describe('UALProvider', () => {
 
     it('that attempts auto-login if authenticator type is in localStorage and not invalidated', async () => {
       localStorage.setItem('UALAccountName', 'Example')
-      localStorage.setItem('UALLoggedInAuthType', 'Scatter')
+      localStorage.setItem('UALLoggedInAuthType', 'PeepsID')
       const invalidateAt = new Date();
       invalidateAt.setSeconds(invalidateAt.getSeconds() + 100);
       window.localStorage.setItem('UALInvalidateAt', invalidateAt)
@@ -58,7 +58,7 @@ describe('UALProvider', () => {
 
     it('that does not attempt to auto-login if localStorage is outdated', async () => {
       localStorage.setItem('UALAccountName', 'Example')
-      localStorage.setItem('UALLoggedInAuthType', 'Scatter')
+      localStorage.setItem('UALLoggedInAuthType', 'PeepsID')
       const invalidateAt = new Date();
       invalidateAt.setSeconds(invalidateAt.getSeconds() - 1);
       window.localStorage.setItem('UALInvalidateAt', invalidateAt)
@@ -153,7 +153,7 @@ describe('UALProvider', () => {
 
     it('that clears the localStorage', () => {
       localStorage.setItem('UALAccountName', 'Example')
-      localStorage.setItem('UALLoggedInAuthType', 'Scatter')
+      localStorage.setItem('UALLoggedInAuthType', 'PeepsID')
       const invalidateAt = new Date();
       invalidateAt.setSeconds(invalidateAt.getSeconds() - 1);
       window.localStorage.setItem('UALInvalidateAt', invalidateAt)
